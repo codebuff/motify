@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html>
+    <head><title>Motify Options</title>
+
+        <!-- Bootstrap Core CSS -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+        <!-- Custom CSS -->
+        <link href="assets/css/motify.css" rel="stylesheet">
+
+        <!-- Custom Fonts -->
+        <link href="assets/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <div class="panel  panel-default">
+                <div class="panel-heading">
+                    <div class="row">
+                        <div class="col-lg-6"><h4 align="center" >Motify</h4></div>
+
+                        <div class="col-lg-6"><div class="text-center">
+                                To give feedback and suggestions, please contact:
+                                <a href="https://www.facebook.com/codebuff" target="_blank" class="btn btn-social-icon btn-facebook"><i class="fa fa-facebook"></i> Deepankar Tyagi </a>
+                                <a href="https://twitter.com/codebuff" target="_blank" class="btn btn-social-icon btn-twitter"><i class="fa fa-twitter"></i></a>
+                                <a href="https://github.com/codebuff" target="_blank" class="btn btn-social-icon btn-github"><i class="fa fa-github"></i></a>
+                                <!--a class="btn btn-social-icon btn-google-plus"><i class="fa fa-google-plus"></i></a-->
+                                <a href="https://www.linkedin.com/in/codebuff" target="_blank" class="btn btn-social-icon btn-linkedin"> <i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel-body">
+
+                    <div class="col-lg-6">
+                        <div class="panel panel-success">
+                            <div class="panel-heading">
+                                Moodle Credentials
+                            </div>
+                            <div class="panel-body">
+                                <div class="form-group">
+                                    <div class="form-group">
+                                        <label>Username of Moodle</label>
+                                        <input class="form-control" type="text" value=""  id="name" />  
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Password of Moodle</label>
+                                        <input class="form-control" type="password" value="" id="pass" />   
+                                    </div>
+
+                                    <label id="status"></label>
+
+
+                                    <button type="button" class="btn btn-outline btn-primary btn-lg btn-block" id="save">Get course list</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="panel panel-info">
+                            <div class="panel-heading">
+                                Notification Settings
+                            </div>
+                            <div class="panel-body">
+                                <div class="alert alert-info">
+                                    <h5>You are receiving notifications for following courses</h5>
+                                </div>
+                                <p id="current_courses"> Yet to be selected</p>
+                                <form>
+                                    <div id="rstatus"></div>
+                                    <button type="button" class="btn btn-outline btn-primary btn-lg btn-block" id="refresh" >update the notifications manually</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <div class="panel panel-danger">
+                            <div class="panel-heading">
+                                Select Courses
+                            </div>
+                            <div class="panel-body">
+                                <div class="form-group" id="coursesForm">
+
+                                    <div class="alert alert-danger">
+
+                                        <h4>To see/update the list of courses >> enter the correct credentials and then press the "Get Course List button"</h4>
+                                    </div>
+                                    <div class="alert alert-info">
+                                        <h4>if you still don't see the list of courses, make sure you entered correct credentials</h4>
+                                    </div>
+                                </div>
+
+                                <div id="cstatus"></div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--div class="col-lg-6">
+                          <div class="panel panel-default">
+                   <div class="panel-heading">
+                           
+                       <h4 align="center" >Feedback</h4>
+                   </div>
+                   <div class="panel-body">
+                       <a href="https://github.com/codebuff"><img style="position: absolute; top: 0; left: 0; border: 0;" src="assets/img/github_fork.png" alt="Fork me on GitHub" ></a>
+                       
+            
+                   
+                   </div>
+               </div>  
+                    </div>
+                     <div class="col-lg-6">
+                          <div class="panel panel-default">
+                   <div class="panel-heading">
+                                       Theme settings
+                   </div>
+                   <div class="panel-body">
+                       
+                           
+                   </div>
+               </div>  
+                    </div-->
+                </div>
+            </div>
+        </div> 
+
+        <script src="options.js"></script>
+
+    </body>
+</html>

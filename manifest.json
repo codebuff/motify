@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+    "name": "Motify",
+    "description": "This extension fetches new updates from moodle periodically.",
+    "version": "0.2",
+    "author": "Deepankar Tyagi(codebuff)",
+    "homepage_url": "http://codebuff.net",
+    "permissions": [
+        "https://moodle.niituniversity.in/*",
+        "storage",
+        "alarms",
+        "tabs"
+    ],
+    "icons": {
+        "16": "moodle.png",
+        "48": "moodle.png",
+        "128": "moodle.png"
+    },
+    "options_page": "options.html",
+    "browser_action": {
+        "default_icon": "moodle.png",
+        "default_popup": "popup.html",
+        "default_title": "see moodle notifications, right click for options"
+    },
+    "background": {
+        "page": "background.html",
+        "persistent": false
+    }
+}
